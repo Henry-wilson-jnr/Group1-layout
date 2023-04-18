@@ -1,0 +1,308 @@
+ *{
+		 margin:0px;
+		 padding:0px;
+		 box-sizing:border-box;
+		 
+		 }
+	
+	nav{
+	display:flex;
+	flex-direction:column;
+	position:fixed;
+	float:left;
+	width:6em;
+	height:100vh;
+
+	background-color:black;
+		align-items:center;
+		box-shadow:0px 7px 7px 0px;
+		color:white;
+	}
+	
+	nav ul{
+	display:flex;
+	flex-direction:column;
+	list-style:none;
+padding-top:19em;
+padding-left:1em;
+	margin-bottom:11em;
+	gap:2rem;
+ cursor:pointer;
+	
+	}
+	
+	
+	
+	nav ul li:hover{
+color:gainsboro;
+border-radius:2px
+ transition:200ms;
+  cursor:pointer;
+	
+	}
+	
+		nav ul li:active{
+color:red;
+border-radius:2px
+ transition:200ms;
+ cursor:pointer;
+	
+	}
+	
+	
+	nav p{
+		margin-left:1.7em;
+	margin-top:1.5em;
+	 width:1em;
+	 height:10vh;
+	 border-radius:50px;
+
+	}
+	
+.logo{
+		position:absolute;
+		top:1em;
+		left:1em;
+		border-radius:50px;
+		width:50px;
+		height:9vh;
+	}
+	
+	
+	
+ .ads{
+	position:absolute;
+	top:3em;
+	right:0em;
+width:15%;
+		height:22vh;
+	transition:700ms;
+
+ }
+ 
+ 
+ .ads:hover{
+	 width:25%;
+	 height:27vh;
+	 transition:700ms;
+transform:translatex(-0rem)
+ }
+	 
+ 
+
+ 
+ 
+ 
+	
+	.ads1{
+		position:absolute;
+		top:25em;
+		right:0em;
+	
+	width:15%;
+		height:22vh;
+		transition:700ms;
+	
+	}
+	
+	
+	.ads1:hover{
+		width:25%;
+		height:27vh;
+			transition:700ms;
+	transform:translatex(-0rem);
+	}
+	
+
+	
+	
+	.ads2{
+		position:absolute;
+		right:0em;
+	top:54em;
+		width:15%;
+		height:22vh;
+	}
+	
+	
+	.ads2:hover{
+			width:25%;
+		height:27vh;
+			transition:700ms;
+	transform:translatex(-0rem);
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	#fa{
+		display:none;
+	}
+	
+	.dropdown{
+		display:none;
+		justify-content:center;
+	align-items:center;
+	background-color:white;
+	box-shadow:0px 8px 7px 0px;
+	height:20vh;
+	width:82px;
+	position:absolute;
+		left:6.5em;
+		top:23em;
+	}
+	
+	.dropdown ul{
+		display:flex;
+		flex-direction:column;
+		list-style:none;
+		gap:22px;
+		align-items:center;
+		padding-top:5px;
+		
+	}
+	
+	.dropdown ul li:hover{
+		background-color:gainsboro;
+			cursor:pointer;
+	}
+	
+	.dropdown ul li:active{
+		background-color:red;
+		cursor:pointer;
+	}
+	
+	
+	
+	.dropdown-container{
+		display:none;
+		justify-content:center;
+	align-items:center;
+	background-color:white;
+	box-shadow:0px 8px 7px 0px;
+	height:20vh;
+	width:82px;
+	position:absolute;
+		left:12em;
+		top:26em;
+	}
+	
+	
+	.dropdown-container ul{
+		display:flex;
+		flex-direction:column;
+		list-style:none;
+		gap:22px;
+		align-items:center;
+		padding-top:5px;
+		cursor:pointer;
+		
+	}
+	
+	.dropdown-container ul li:hover{
+color:gainsboro;
+border-radius:2px
+ transition:200ms;
+  cursor:pointer;
+	
+	}
+	
+	.dropdown-container ul li:active{
+		color:red;
+	}
+	
+	
+	
+	.header{
+		background-color:red;
+		height:40vh;
+		color:black;
+		font-size:40px;
+		padding-top:2.3em;
+	}
+	
+	
+	.Content{
+		
+		height:70vh;
+		color:black;
+		font-size:40px;
+		padding-top:4em;
+	}
+
+	.carousel-inner {
+
+		width:60em;
+		height:50vh;
+		padding-left:22em;
+		
+	}
+	
+
+
+	@media screen and (max-width:650px){
+		
+		
+		#fa{
+			display:block;
+	position:absolute;
+	top:18em;
+		}
+		
+		nav ul li:not(.fa){
+			display:none;
+		
+		}
+		
+		.dropdown{
+				top:19em;
+		
+			height:30vh;
+		}
+		
+		.dropdown-container{
+			
+			position:absolute;
+			top:27em;
+		}
+		
+		
+		
+		.carousel-inner {
+display:none;
+		
+		
+	}
+		.container{
+			display:none;
+		}
+	}
+		
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	footer{
+		background-color:green;
+		height:60vh;
+		color:white;
+		font-size:40px;
+		padding-top:4em;
+	}
+	
+	
+	
+	
+	
