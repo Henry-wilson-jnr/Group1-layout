@@ -5,6 +5,12 @@
 		 
 		 }
 	
+	body{
+		
+		height:100vh;
+	}
+	
+	
 	nav{
 	display:flex;
 	flex-direction:column;
@@ -69,75 +75,176 @@ border-radius:2px
 	}
 	
 	
+	.header{
+		background-color:red;
+		height:60vh;
+		width:65%;
+		color:black;
+		font-size:40px;
+		padding-top:2.3em;
+	}
+	
+	
+	
 	
  .ads{
+
+		width:65%;
+		height:240vh;
+ }
+ 
+ 
+ 
+ .Trending{
+	 background-color:gainsboro;
+	
+	 width:33%;
+	 height:300vh;
+	 position:absolute;
+	 top:0em;
+	 right:-0em;
+ }
+ 
+ 
+.ads1{
+	
 	position:absolute;
 	top:3em;
-	right:0em;
-width:15%;
-		height:22vh;
-	transition:700ms;
-
- }
+	right:2em;
+	width:80%
+	
+}
  
- 
- .ads:hover{
-	 width:25%;
-	 height:27vh;
-	 transition:700ms;
-transform:translatex(-0rem)
- }
+ .post{
+	 color:black;
+	 position:absolute;
+	 width:60%;
+	 	top:16%;
+	right:30%;
+	font-size:33px;
+	font-family:Quicksand,sans-serif;
 	 
- 
+ }
 
- 
- 
- 
-	
-	.ads1{
-		position:absolute;
-		top:25em;
-		right:0em;
-	
-	width:15%;
-		height:22vh;
-		transition:700ms;
-	
-	}
-	
-	
-	.ads1:hover{
-		width:25%;
-		height:27vh;
-			transition:700ms;
-	transform:translatex(-0rem);
-	}
-	
 
-	
-	
-	.ads2{
+
+.container{
+	 background-color:white;
+	 box-shadow:0px 9px 9px 0px;
+	 width:90%;
+	 height:180vh;
+	 position:absolute;
+	 top:29em;
+	 right:6%;
+	 justify-content:center;
+	 align-items:center;
+	 border-radius:15px;
+}
+
+
+
+ .ads2{
+	 width:45%;
+	 height:60vh;
+	 border-radius:5px;
+ }
+ 
+ 
+ .ads3{
+	 width:50%;
+	 height:60vh;
+	 border-radius:5px;
+	 position:absolute;
+	 right:0em;
+	 top:0em;
+ }
+ 
+ 
+ 
+ 
+ .text{
+	 align-items:center;
+	 position:absolute;
+	 top:23em;
+	 right:2%;
+font-size:19px;	 
+font-family:Quicksand,sans-serif;
+width:90%;
+ }
+ 
+ 
+ .text:hover{
+	 color:blue;
+	 cursor:pointer;
+ }
+ 
+ 
+	.text1{
 		position:absolute;
-		right:0em;
-	top:54em;
-		width:15%;
-		height:22vh;
+	 top:31em;
+	 right:4em;
+		font-size:19px;
+		color:red;
 	}
 	
-	
-	.ads2:hover{
-			width:25%;
-		height:27vh;
-			transition:700ms;
-	transform:translatex(-0rem);
-		
+	.text1:hover{
+		color:blue;
+		 cursor:pointer;
 	}
 	
 	
 	
+	.text2{
+		position:absolute;
+	 top:36em;
+	 right:3em;
+		font-size:19px;
+		color:red;
+	}
+	
+	.text2:hover{
+		color:blue;
+		 cursor:pointer;
+	}
+	
+	
+	.text3{
+		position:absolute;
+	 top:42em;
+	 right:4em;
+		font-size:19px;
+		color:red;
+	}
+	
+	.text3:hover{
+		color:blue;
+		 cursor:pointer;
+	}
 	
 	
 	
+	
+	
+	.text4{
+		position:absolute;
+	 top:49em;
+	 right:2em;
+		font-size:19px;
+		color:red;
+	}
+	
+	.text4:hover{
+		color:blue;
+		 cursor:pointer;
+	}
+	
+	
+	
+	.More{
+		position:absolute;
+		top:70em;
+	 right:12em;
+	}
 	
 	#fa{
 		display:none;
@@ -217,40 +324,33 @@ border-radius:2px
 	
 	
 	
-	.header{
-		background-color:red;
-		height:40vh;
-		color:black;
-		font-size:40px;
-		padding-top:2.3em;
-	}
-	
-	
-	.Content{
-		
-		height:70vh;
-		color:black;
-		font-size:40px;
-		padding-top:4em;
-	}
 
-	.carousel-inner {
 
-		width:60em;
-		height:50vh;
-		padding-left:22em;
-		
-	}
-	
+
+
 
 
 	@media screen and (max-width:650px){
-		
-		
+
+
+
+
+.container{
+	display:none;
+	 background-color:white;
+	 box-shadow:0px 9px 9px 0px;
+	 width:50%;
+	 height:200vh;
+	 position:absolute;
+	 top:29em;
+	 right:6%;
+
+	 border-radius:15px;
+}
+
+
 		#fa{
 			display:block;
-	position:absolute;
-	top:18em;
 		}
 		
 		nav ul li:not(.fa){
@@ -272,31 +372,15 @@ border-radius:2px
 		
 		
 		
-		.carousel-inner {
-display:none;
-		
-		
-	}
-		.container{
-			display:none;
-		}
+
 	}
 		
-	
-		
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	footer{
 		background-color:green;
-		height:60vh;
+		height:50vh;
+	width:100%;
 		color:white;
 		font-size:40px;
 		padding-top:4em;
